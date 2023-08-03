@@ -18,15 +18,15 @@ Our web app APP NAME is built with the following features:
 - Authentication: Othent
 - Styling: Tailwind CSS
 
-## Forward Research Universal Data License
+## 🎥 Forward Research Universal Data License
 
 (Build an open youtube-style platform on Arweave that lets users browse for videos, tip creators, and buy into the revenue streams for content -- all of which can be licensed with the UDL.)
 
-## Best use of Kwil
+## 📁 Best use of Kwil
 
 (There is no explicit mandate for this bounty other than that the submission must use Kwil; teams are encouraged to leverage Kwil in unique ways, whether it be by building an application, tooling, or otherwise.)
 
-## Community Labs - Othent integration
+## 🔐 Community Labs - Othent integration
 
 (Build a Permaweb app that leverages Othent for authentication and transaction uploading. The integration can be done via ArweaveKit, OthentJS, or through direct interaction with Othent account contracts.)
 
