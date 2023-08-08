@@ -1,7 +1,5 @@
 import { useEffect, useState } from 'react';
 import { providers, utils } from 'ethers';
-import 'tailwindcss/tailwind.css';
-
 export default function Web3Transaction() {
   const [account, setAccount] = useState<string | null>(null);
   const [provider, setProvider] = useState<providers.Web3Provider | null>(null);
@@ -10,11 +8,9 @@ export default function Web3Transaction() {
   const [transactionHash, setTransactionHash] = useState<string | null>(null);
 
   useEffect(() => {
-    // Initialize the Web3 provider
     const web3Provider = new providers.Web3Provider(window.ethereum);
     setProvider(web3Provider);
 
-    // Fetch the user's Ethereum account
     async function fetchAccount() {
       const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
       setAccount(accounts[0]);

@@ -34,6 +34,11 @@ const Index = () => {
     fetchData();
   }, []);
 
+  const filteredContent = content.filter((item: Video) => {
+    const searchTerms = [item.title, item.description, item.wallet_address].join(' ').toLowerCase();
+    return searchTerms.includes(searchQuery.toLowerCase());
+  });
+
   return (
     <div>
       <div>
@@ -43,8 +48,8 @@ const Index = () => {
 
         <div className="flex justify-center items-center py-8">
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-            {content && content.length > 0 ? (
-              content.map((item: Video, index: number) => (
+            {filteredContent && filteredContent.length > 0 ? (
+              filteredContent.map((item: Video, index: number) => (
                 <Link key={item.id} href={`/player/${item.id}`} as={`/player/${item.id}`}>
                   <a>
                     <VideoCard
@@ -58,10 +63,9 @@ const Index = () => {
               ))
             ) : (
               <div className='flex items-center justify-center pt-56'>
-                <p className='text-3xl text-white'>Loading content....</p>
+                <p className='text-3xl text-white'>Loading...</p>
               </div>
             )}
-
           </div>
         </div>
       </div>
