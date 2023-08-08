@@ -2,7 +2,7 @@
 
 ## 💡 Inspiration
 
-Subscription platforms like Patreon, Kickstarter, Kofi, Indiegogo, Onlyfans, Fansly Videos are permanent, no censorship, content creators don’t have to give a big cut to the subscription platform, and they don’t need to give credit card info or personal address (maintains their privacy). We have created a decentralized streaming platform where anyone can come and upload their content.
+Unlike Patreon, Kickstarter, Kofi, Indiegogo, Onlyfans, Fansly, our platform has permanent storage of videos, no censorship, and content creators don’t need to give a big cut to the subscription platform. We have created a decentralized streaming platform where anyone can come and upload their content.
 
 ![image](https://github.com/wiz-word/ArweaveHackathon/assets/64153988/76b33101-c112-42af-8e63-eb28e27c19f0)
 
