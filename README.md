@@ -2,36 +2,43 @@
 
 ## 💡 Inspiration
 
+Subscription platforms like Patreon, Kickstarter, Kofi, Indiegogo, Onlyfans, Fansly Videos are permanent, no censorship, content creators don’t have to give a big cut to the subscription platform, and they don’t need to give credit card info or personal address (maintains their privacy). We have created a decentralized streaming platform where anyone can come and upload their content.
+
+![image](https://github.com/wiz-word/ArweaveHackathon/assets/64153988/76b33101-c112-42af-8e63-eb28e27c19f0)
+
+
 ## 💻 What it does
 
 Our web app StreamWeave is built with the following features:
 
-- Upoad your videos permanently
+- Upload your videos permanently on web
 - No censorship
 - Get paid for your content
 
 ## ⚙️ How we built it
 
-- Web App: Next JS
-- Storage: Arweave and Othent
+- Web App: Next Js
+- Storage: Arweave
 - Database: Kwil
+- Authentication: Othent
 - Styling: Tailwind CSS
 
 ## 🎥 Forward Research Universal Data License
 
-(Build an open youtube-style platform on Arweave that lets users browse for videos, tip creators, and buy into the revenue streams for content -- all of which can be licensed with the UDL.)
+We have created an open youtube-style platform on Arweave that lets users browse for videos, tip creators, and buy into the revenue streams for the content all of which is licensed with the UDL.
 
 ## 📁 Best use of Kwil
 
-(There is no explicit mandate for this bounty other than that the submission must use Kwil; teams are encouraged to leverage Kwil in unique ways, whether it be by building an application, tooling, or otherwise.)
+We are using Kwil as our primary decentralized database to store uploaded information. Kwil makes it very easy to work with and makes our app much better.
 
 ## 🔐 Community Labs - Othent integration
 
-(Build a Permaweb app that leverages Othent for authentication and transaction uploading. The integration can be done via ArweaveKit, OthentJS, or through direct interaction with Othent account contracts.)
+We are using Othent for authentication and transaction uploading. It makes very easy to upload content if you are new to the platform.
 
 ## 🧠 Challenges we ran into
 
 - Completing the project was challenging because we had to implement the project by a deadline.
+- Deploying the app.
 
 ## 🏅 Accomplishments that we're proud of
 
