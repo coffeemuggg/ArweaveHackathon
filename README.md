@@ -1,10 +1,10 @@
-# APP NAME
+# StreamWeave
 
 ## 💡 Inspiration
 
 ## 💻 What it does
 
-Our web app APP NAME is built with the following features:
+Our web app StreamWeave is built with the following features:
 
 - Upoad your videos permanently
 - No censorship
@@ -12,10 +12,9 @@ Our web app APP NAME is built with the following features:
 
 ## ⚙️ How we built it
 
-- Web App: Next Js
-- Storage: Arweave
+- Web App: Next JS
+- Storage: Arweave and Othent
 - Database: Kwil
-- Authentication: Othent
 - Styling: Tailwind CSS
 
 ## 🎥 Forward Research Universal Data License
@@ -44,6 +43,6 @@ Our web app APP NAME is built with the following features:
 - We learned how to use Arweave.
 - Managing and handling the Kwil database.
 
-## 🚀 What's next for APP NAME
+## 🚀 What's next for StreamWeave
 
 - Building a mobile app.
